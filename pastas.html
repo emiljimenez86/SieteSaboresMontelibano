@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastas | Siete Sabores</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Glacial+Indifference&family=Josefin+Sans&display=swap" rel="stylesheet">
+    
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Contenedor del header -->
+    <div class="header">
+       
+        <img src="./imagenes/logo.png" alt="Logo Siete Sabores" class="small-logo">
+        
+       
+       
+    </div>
+    
+   
+    <h1 class="title submenu-title">SIETE SABORES</h1>
+    <h2 class="subtitle">Pastas</h2>
+    
+
+    <!-- Sección de Platos -->
+    <div class="container">
+        <div class="plato">
+            <img src="./imagenes/platos/Pasta-y-fileto.jpeg" alt="Plato 1" class="plato-img">
+            <h3>Pasta & Filetto</h3>
+            <p><strong>$49.000</strong></p>
+            <button class="btn-detalle" onclick="toggleDetalle(this)">Detalles</button>
+            <div class="plato-detalle">
+                <p>Pasta corta en salsa de quesos, acompañada de filete de solomito al grill con salsa de ají rostizado.</p>
+            </div>
+            <a href="https://wa.me/+573016590938?text=¡Hola!%20quiero%20pedir%20Pasta%20y%20Filetto." class="btn-whatsapp">Pedir por WhatsApp domicilio</a>
+        </div>
+
+        <div class="plato">
+            <img src="./imagenes/platos/pasta-carbonara.jpeg" alt="Plato 1" class="plato-img">
+            <h3>Pastas a la Carbonara</h3>
+            <p><strong>$42.000</strong></p>
+            <a href="https://wa.me/+573016590938?text=¡Hola!%20quiero%20pedir%20Pastas%20a%20la%20Carbonara." class="btn-whatsapp">Pedir por WhatsApp domicilio</a>
+        </div>
+
+        <div class="plato">
+            <img src="./imagenes/platos/pasta-con-mariscos1302.jpeg" alt="Plato 1" class="plato-img">
+            <h3>Pastas con Mariscos</h3>
+            <p><strong>$52.000</strong></p>
+            <a href="https://wa.me/+573016590938?text=¡Hola!%20quiero%20pedir%20Pastas%20con%20Mariscos" class="btn-whatsapp">Pedir por WhatsApp domicilio</a>
+        </div>
+
+        <div class="plato">
+            <img src="./imagenes/platos/pasta-saltada.jpeg" alt="Plato 1" class="plato-img">
+            <h3>Pastas en crema de ají y pollo saltado</h3>
+            <p><strong>$52.000</strong></p>
+            <a href="https://wa.me/+573016590938?text=¡Hola!%20quiero%20pedir%20Pastas%20en%20crema%20de%20ají%20y%20pollo%20saltado." class="btn-whatsapp">Pedir por WhatsApp domicilio</a>
+        </div>
+
+       
+        
+    </div>
+
+    
+    <footer class="text-center py-3">
+        <p>&copy; 2025 SIETE SABORES. Todos los derechos reservados.
+            <br>Emil Jiménez - Desarrollador Web 
+        </p>
+    </footer>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+    <script>
+        function toggleDetalle(btn) {
+            var detalle = btn.nextElementSibling;
+            detalle.style.display = detalle.style.display === "none" || detalle.style.display === "" ? "block" : "none";
+        }
+    </script>
+
+</body>
+</html>
