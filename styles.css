@@ -272,3 +272,18 @@ footer {
 p.footer-menus {
     color:#B8860B
 }
+
+li.list-group-item {
+    background-color: #FFECB3;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 18px;
+    font-size: 0.9rem;
+    transition: 0.3s;
+    display: block;
+    margin: 5px auto;
+    padding: 5px 10px;
+    border: none;
+    
+}
