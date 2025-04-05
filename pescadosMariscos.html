@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pescados y Mariscos | Siete Sabores</title>
+    <title>Pescados y Mariscos | Siete Sabores Ayapel</title>
     
     
     <link href="https://fonts.googleapis.com/css2?family=Glacial+Indifference&family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
 </head>
 <body>
 
-    <!-- Contenedor del header -->
+    
     <div class="header">
        
         <img src="./imagenes/logo.png" alt="Logo Siete Sabores" class="small-logo">
@@ -26,75 +26,82 @@
     </div>
     
   
-    <h1 class="title submenu-title">SALA</h1>
+    <h1 class="title submenu-title">SIETE SABORES</h1>
     <h2 class="subtitle">Pescados y Mariscos</h2>
     
 
     <!-- Sección de Platos -->
     <div class="container">
         <div class="plato">
-            <img src="./imagenes/platos/salmon-sala.jpeg" alt="Plato 1" class="plato-img">
-            <h3>Salmón Sala</h3>
+            <img src="./imagenes/platos/salmon-pasion.jpeg" alt="Plato 1" class="plato-img">
+            <h3>Salmón Pasión</h3>
+            <p><strong>$53.000</strong></p>
+            <button class="btn-detalle" onclick="toggleDetalle(this)">Detalles</button>
+            <div class="plato-detalle">
+                <p>Filete de Salmón al carbón sobre reducción de soja y maracuyá.</p>
+            </div>
+            <a href="https://wa.me/+573235131823?text=¡Hola!%20quiero%20pedir%20un%20Salmón%20Pasión." class="btn-whatsapp">Pedir domicilio</a>
+        </div>
+
+       
+        <div class="plato">
+            <img src="./imagenes/platos/salmon-siete-sabores.jpeg" alt="Plato 1" class="plato-img">
+            <h3>Salmón Siete Sabores</h3>
             <p><strong>$55.000</strong></p>
             <button class="btn-detalle" onclick="toggleDetalle(this)">Detalles</button>
             <div class="plato-detalle">
-                <p>Mantequilla panela + queso al panko + purechoclo.</p>
+                <p>Filete de Salmón al carbón sobre teriyaki de maracuyá y queso azul.</p>
             </div>
-            <a href="https://wa.me/+573143068166?text=¡Hola!%20quiero%20pedir%20un%20Salmón%20Sala." class="btn-whatsapp">Pedir domicilio</a>
+            <a href="https://wa.me/+573235131823?text=¡Hola!%20quiero%20pedir%20un%20Salmón%20Siete%20Sabores." class="btn-whatsapp">Pedir domicilio</a>
         </div>
 
         <div class="plato">
-            <img src="./imagenes/platos/salmon-blanc.jpeg" alt="Plato 1" class="plato-img">
-            <h3>Salmón Blanc con Mariscos </h3>
-            <p><strong>$58.000</strong></p>
-            <button class="btn-detalle" onclick="toggleDetalle(this)">Detalles</button>
-            <div class="plato-detalle">
-                <p>Veloute + orzo de mariscos.</p>
-            </div>
-            <a href="https://wa.me/+573143068166?text=¡Hola!%20quiero%20pedir%20un%20Salmón%20Blanc%20con%20Mariscos." class="btn-whatsapp">Pedir domicilio</a>
+            <img src="./imagenes/platos/chicharrones-de-mariscos.jpeg" alt="Plato 1" class="plato-img">
+            <h3>Chicharrones de Mariscos</h3>
+            <p><strong>$60.000</strong></p>
+            <a href="https://wa.me/+573235131823?text=¡Hola!%20quiero%20pedir%20Chicharrones%20de%20Mariscos." class="btn-whatsapp">Pedir domicilio</a>
         </div>
 
         <div class="plato">
             <img src="./imagenes/platos/SalmonMariscos.jpeg" alt="Plato 1" class="plato-img">
-            <h3>Salmón con Mariscos </h3>
-            <p><strong>$55.000</strong></p>
-            <a href="https://wa.me/+573143068166?text=¡Hola!%20quiero%20pedir%20un%20Salmón%20con%20Mariscos." class="btn-whatsapp">Pedir domicilio</a>
+            <h3>Salmón con Mariscos</h3>
+            <p><strong>$58.000</strong></p>
+            <a href="https://wa.me/+573235131823?text=¡Hola!%20quiero%20pedir%20Salmón%20con%20Mariscos." class="btn-whatsapp">Pedir domicilio</a>
         </div>
 
         <div class="plato">
             <img src="./imagenes/platos/langostinos-al-ajillo.jpeg" alt="Plato 1" class="plato-img">
             <h3>Langostinos al Ajillo</h3>
-            <p><strong>$57.000</strong></p>
-            <button class="btn-detalle" onclick="toggleDetalle(this)">Detalles</button>
-            <div class="plato-detalle">
-                <p>Langostinos al grill en salsa de ajo.</p>
-            </div>
-            <a href="https://wa.me/+573143068166?text=¡Hola!%20quiero%20pedir%20unos%20de%20Langostinos%20al%20Ajillo." class="btn-whatsapp">Pedir domicilio</a>
-        </div>
-
-        <div class="plato">
-            <img src="./imagenes/platos/langostinos-negros.jpeg" alt="Plato 1" class="plato-img">
-            <h3>Langostinos Negros</h3>
             <p><strong>$59.000</strong></p>
             <button class="btn-detalle" onclick="toggleDetalle(this)">Detalles</button>
             <div class="plato-detalle">
-                <p>Teriyaki de caffe + pure de papa + ensaladilla de aceitunas.</p>
+                <p>Según disponibilidad.</p>
             </div>
-            <a href="https://wa.me/+573143068166?text=¡Hola!%20quiero%20pedir%20unos%20Langostinos%20Negros." class="btn-whatsapp">Pedir domicilio</a>
+            <a href="https://wa.me/+573235131823?text=¡Hola!%20quiero%20pedir%20unos%20de%20Langostinos%20al%20Ajillo." class="btn-whatsapp">Pedir domicilio</a>
+        </div>
+
+
+        <div class="plato">
+            <img src="./imagenes/platos/mojarra.jpeg" alt="Plato 1" class="plato-img">
+            <h3>Mojarra a la Parrilla</h3>
+            <p><strong>Desde $59.000</strong></p>
+            <button class="btn-detalle" onclick="toggleDetalle(this)">Detalles</button>
+            <div class="plato-detalle">
+                <p>Imponente mojarra al grill, aderezada con mojo localy acompañada con leche de tigre de la casa.</p>
+            </div>
+            <a href="https://wa.me/+573235131823?text=¡Hola!%20quiero%20pedir%20una%20Mojarra%20a%20la%20Parrilla." class="btn-whatsapp">Pedir domicilio</a>
         </div>
 
         <div class="plato">
-           
-            <h3>Salmón a la parrilla</h3>
-            <p><strong>Desde $50.000</strong></p>
+            <img src="./imagenes/platos/papillote.jpeg" alt="Plato 1" class="plato-img">
+            <h3>Papillote de Bagre</h3>
+            <p><strong>Desde $59.000</strong></p>
             <button class="btn-detalle" onclick="toggleDetalle(this)">Detalles</button>
             <div class="plato-detalle">
-                <p>Filete de salmón asado al carbón.</p>
+                <p>Filetes de Bagre envueltos en hoja de plátano al Grill, con camarones, tomates y aceitunas en exquisita salsa de la casa.</p>
             </div>
-            <a href="https://wa.me/+573143068166?text=¡Hola!%20quiero%20pedir%20un%20Salmón%20a%20la%20Parrilla." class="btn-whatsapp">Pedir domicilio</a>
+            <a href="https://wa.me/+573235131823?text=¡Hola!%20quiero%20pedir%20un%20Papillote%20de%20Bagre." class="btn-whatsapp">Pedir domicilio</a>
         </div>
-
-  
 
        
         
